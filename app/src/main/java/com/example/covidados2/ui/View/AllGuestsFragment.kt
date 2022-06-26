@@ -1,4 +1,4 @@
-package com.example.covidados2.ui.home
+package com.example.covidados2.ui.View
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.covidados2.databinding.FragmentPresentBinding
+import com.example.covidados2.ui.ViewModel.AllGuestsViewModel
 
 class AllGuestsFragment : Fragment() {
 

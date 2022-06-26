@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.covidados2.R
 import com.example.covidados2.databinding.ActivityGuestFormBinding
-import com.example.covidados2.ui.GuestFormViweModel
+import com.example.covidados2.ui.ViewModel.GuestFormViweModel
 
 class GuestFormActivity : AppCompatActivity(), View.OnClickListener {
     lateinit var binding: ActivityGuestFormBinding
