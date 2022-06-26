@@ -1,4 +1,4 @@
-package com.example.covidados2.ui.gallery
+package com.example.covidados2.ui.View
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

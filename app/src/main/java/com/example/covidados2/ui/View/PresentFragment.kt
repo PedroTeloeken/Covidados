@@ -1,4 +1,4 @@
-package com.example.covidados2.ui.slideshow
+package com.example.covidados2.ui.View
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,12 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.covidados2.databinding.FragmentAbsentBinding
+import com.example.covidados2.databinding.FragmentPresentBinding
 
-class AbsentFragment : Fragment() {
 
-    private var _binding: FragmentAbsentBinding? = null
+class PresentFragment : Fragment() {
+
+    private var _binding: FragmentPresentBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,14 +23,14 @@ class AbsentFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val slideshowViewModel =
-            ViewModelProvider(this).get(AbsentViewModel::class.java)
+        val galleryViewModel =
+            ViewModelProvider(this).get(PresentViewModel::class.java)
 
-        _binding = FragmentAbsentBinding.inflate(inflater, container, false)
+        _binding = FragmentPresentBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textSlideshow
-        slideshowViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.textPresent
+        galleryViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root
