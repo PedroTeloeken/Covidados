@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/pedro/Covidados2/app/src/main/res/layout/activity_guest_form.xml" value="0.33" />
+        <entry key="..\:/Users/pedro/Covidados2/app/src/main/res/layout/activity_main.xml" value="0.20697463768115942" />
         <entry key="..\:/Users/pedro/Covidados2/app/src/main/res/layout/content_main.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/pedro/Covidados2/app/src/main/res/layout/fragment_present.xml" value="0.32864583333333336" />
+        <entry key="..\:/Users/pedro/Covidados2/app/src/main/res/menu/activity_main_drawer.xml" value="0.32864583333333336" />
+        <entry key="..\:/Users/pedro/Covidados2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2525" />
       </map>
     </option>
   </component>
